@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <STYLE>
+        body {background-image: url('https://img.freepik.com/free-vector/blue-abstract-gradient-wave-vector-background_53876-111548.jpg');}
+       body{background-position: center; background-repeat: no-repeat;   background-size: cover;}
+
+        h1{text-align: center; font-size: 300%;}
+        h2{text-align: center; font-style: oblique; color:rgb(46, 109, 141); font-size: 200%;font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;}
+        h3,h4{text-align: center; font-style: oblique; color:rgb(161, 210, 236); font-size: 100%; }
+
+        label{margin-left: 30px;  display:inline-flexbox ; text-align: center;}
+        select{padding: 4px 4px 4px 5px; }
+
+        .Div1{  display: flex;  justify-content: center;}
+        .Div2{  display: flex;  justify-content: center; margin: 10px; padding: 3px; } 
+        .Div3{  display: flex;  justify-content: center; margin: 5px; padding: 10px;font-size: xx-large; color:rgb(16, 62, 84); } 
+        .Div4{  display: flex;  justify-content: center; margin: 5px; padding: 10px;font-size: xx-large; color:rgb(11, 41, 55); }
+
+        input{margin: 10px; padding: 3px; text-align: center; }  
+        
+        button{  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.24), 0 7px 5px 0 rgba(0,0,0,0.19);}
+        button:hover{  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 7px 5px 0 rgba(0,0,0,0.19);}
+        button{background-color: #44ff00;  color: black;  font-size: 16px;  padding: 6px 28px; margin: 10px; border: none;
+                cursor: pointer;  border-radius: 5px;  text-align: center;}
+        .fo{margin-left: 30px;}
+      </STYLE>
+
+<body>
+
+    <h1>Welcome to Exchange.com</h1>
+    <h2>Buy and Sell just in verified point!!</h2>
+    <h3>Never spend your money before you have earned it.<p style="font-size:80%" >Thomas Jefferson</p></h3>
+
+        
+        <br><br>
+    <div class="Div1">
+        <label  class="fo" for="cId" style="color: teal;font-size: 150% ;">Exchange from :&nbsp; </label>
+            <select id="fromId">
+                <option value="USD"> United States dollar &nbsp;&emsp;&emsp; USD </option>
+                <option value="EUR"> Euro  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  EUR</option> 
+                <option value="JPY"> Japanese yen  &ensp; &emsp;&emsp;&emsp;&emsp; JPY</option>
+                <option value="GBP"> Sterling &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;GBP</option>
+                <option value="AUD"> Australian dollar &ensp;&emsp;&emsp;&ensp;&ensp;&nbsp;  AUD</option>
+                <option value="CAD">Canadian dollar &emsp;&emsp;&emsp;&emsp;CAD</option>
+                <option value="CHF">Swiss franc &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CHF</option>  
+                <option value="CNY">Renminbi   &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;CNY</option>
+                <option value="HKD">Hong Kong dollar  &emsp;&emsp;&emsp;  HKD</option>
+                <option value="NZD">New Zealand dollar  &emsp;&emsp; NZD</option>
+                <option value="SEK">Swedish krona  &emsp;&emsp;&emsp;&emsp; SEK</option>
+                <option value="KRW">South Korean won  &ensp;&emsp;&emsp; KRW</option>
+                <option value="SGD">Singapore dollar   &emsp;&emsp;&emsp; &nbsp;SGD</option>
+                <option value="NOK">Norwegian krone &emsp;&emsp;&emsp;&nbsp;NOK</option>
+                <option value="MXN5">Mexican peso  &emsp;&emsp;&emsp;&emsp;&nbsp; MXN</option>
+                <option value="INR">Indian rupee  &emsp;&emsp;&emsp;&emsp;  &ensp;&nbsp; INR</option>
+                <option value="RUB">Fashist ruble &emsp;&emsp;&emsp;&emsp; &ensp;  RUB</option>
+                <option value="ZAR">South African rand  &emsp;&emsp; &ensp;ZAR</option>
+                <option value="TRY">Turkish lira    &emsp;&emsp;&emsp;&emsp; &ensp; &ensp; &nbsp;TRY</option>
+                <option value="BRL">Brazilian real &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; BRL</option> 
+            </select>
+            
+        <label for="toId" style="color: teal;font-size: 150% ;"> to : &nbsp; </label>
+            <select id="toId">
+                <option value="EUR"> Euro  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  EUR</option>
+                <option value="USD"> United States dollar &nbsp;&emsp;&emsp; USD </option>
+                <option value="JPY"> Japanese yen  &ensp; &emsp;&emsp;&emsp;&emsp; JPY</option>
+                <option value="GBP"> Sterling &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;GBP</option>
+                <option value="AUD"> Australian dollar &ensp;&emsp;&emsp;&ensp;&ensp;&nbsp;  AUD</option>
+                <option value="CAD">Canadian dollar &emsp;&emsp;&emsp;&emsp;CAD</option>
+                <option value="CHF">Swiss franc &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;CHF</option>  
+                <option value="CNY">Renminbi   &ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;CNY</option>
+                <option value="HKD">Hong Kong dollar  &emsp;&emsp;&emsp;  HKD</option>
+                <option value="NZD">New Zealand dollar  &emsp;&emsp; NZD</option>
+                <option value="SEK">Swedish krona  &emsp;&emsp;&emsp;&emsp; SEK</option>
+                <option value="KRW">South Korean won  &ensp;&emsp;&emsp; KRW</option>
+                <option value="SGD">Singapore dollar   &emsp;&emsp;&emsp; &nbsp;SGD</option>
+                <option value="NOK">Norwegian krone &emsp;&emsp;&emsp;&nbsp;NOK</option>
+                <option value="MXN5">Mexican peso  &emsp;&emsp;&emsp;&emsp;&nbsp; MXN</option>
+                <option value="INR">Indian rupee  &emsp;&emsp;&emsp;&emsp;  &ensp;&nbsp; INR</option>
+                <option value="RUB">Fashist ruble &emsp;&emsp;&emsp;&emsp; &ensp;  RUB</option>
+                <option value="ZAR">South African rand  &emsp;&emsp; &ensp;ZAR</option>
+                <option value="TRY">Turkish lira    &emsp;&emsp;&emsp;&emsp; &ensp; &ensp; &nbsp;TRY</option>
+                <option value="BRL">Brazilian real &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp; BRL</option> 
+            </select>
+        
+    </div> <br>
+
+    
+
+    <div class="Div2">
+        <input placeholder="how much cc ?" type="number"  id="MyValue" name="fname" value="1" >   
+        <button  id="search_btn">"CALCULATE IT"</Label></button>
+    </div>
+      
+      
+    <div id="api_result"  display: inline class="Div3" ></div>
+    <div id="api_result2" display: inline class="Div3"></div>
+    <div id="api_result3" display: inline class="Div4">
+    <div id="api_result4" display: inline>
+    <div id="api_result5" display: inline></div> 
+    </div><br><br><br>
+
+    <script src="Exchange.js"> </script>
+
+</body>
+</html>
